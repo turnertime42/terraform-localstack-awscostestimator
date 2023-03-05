@@ -45,7 +45,7 @@ You can add new resources as you see fit for your specific use case and probably
 Clone Repo:
 
 ```bash
-git clone {repo_name}
+git clone git@github.com:turnertime42/terraform-localstack-awscostestimator.git
 ```
 
 Initialize terraform:
