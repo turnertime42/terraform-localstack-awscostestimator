@@ -23,7 +23,7 @@ You can add new resources as you see fit for your specific use case and probably
 
 - Install Docker Desktop. See [Docker Desktop Website](https://www.docker.com/products/docker-desktop/) for full documentation and useful links.
 - Install localstack docker extension. See [LocalStack extension Website](https://github.com/localstack/localstack-docker-extension)  for full documentation and useful links.
-- I use [VScode](hhttps://code.visualstudio.com/download) for my personal code editor since it has tons of extensions but you're free to use whatever.
+- I use [VScode](https://code.visualstudio.com/download) for my personal code editor since it has tons of extensions but you're free to use whatever.
 - Install terraform cli. See [terraform docs](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) for instructions.
 - Install [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) to interact with mocked aws services.
 - Start Docker Desktop and launch the latest localstack docker instance via the extension.
