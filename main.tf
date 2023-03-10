@@ -45,14 +45,14 @@ resource "null_resource" "tfplancreate" {
   }
 }
 
-data "aws_ami" "ubuntu" {
+data "aws_ami" "amazon_linux2" {
   most_recent = true
-  owners      = ["099720109477"] # Canonical
+  owners      = ["137112412989"] # Amazon
 }
 
 resource "aws_instance" "testcost" {
-  ami           = data.aws_ami.ubuntu.id
-  instance_type = "t2.2xlarge"
+  ami           = data.aws_ami.amazon_linux2.id
+  instance_type = "t2.micro"
   tags = {
     Name = "testcost"
   }
